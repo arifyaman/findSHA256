@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "limits": "cpp",
+        "sha256.h": "c",
+        "stdint.h": "c",
+        "typeinfo": "cpp",
+        "vector": "cpp",
+        "optional": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp"
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "label": "Build&Run2",
+            "type": "shell",
+            "command": "gcc-9 -fdiagnostics-color=always -g main.c -o build/main\n./build/main",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "Build&Run",
+            "type": "shell",
+            "command": "nvcc -o build/findSHA256 findSHA256.cu",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "JustRun",
+            "type": "shell",
+            "command": "./build/findSHA256",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+	]
+}
